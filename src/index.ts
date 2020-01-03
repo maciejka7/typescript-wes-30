@@ -5,6 +5,6 @@ import { Tooltip } from "./utils/tooltip";
 
 console.log(One.sayHello());
 
-const element = document.querySelector("aside nav ul li:first-of-type");
+const element = document.querySelector("aside nav ul li:nth-child(5)");
 
 const tooltip = new Tooltip(element);
